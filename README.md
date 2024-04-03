@@ -5,3 +5,5 @@ DIO LAB para estudo do GIT e GITHUB
 
 1) Autenticação via usuario;
 2) Autenticação via tokens, com chave de acesso;
+3) Adicionar, Comitar, Alterar, Clonar;
+4) Criando Branchs para testes de versionamentos;
