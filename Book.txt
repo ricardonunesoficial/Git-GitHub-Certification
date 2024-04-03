@@ -1,5 +1,8 @@
 ## Arquivo de teste para mesclar repositorio Remoto com GitHub
 Arquito de teste e autoexplicativo para comandos GitHub
-1) git add .
-2) git commit -m
-3) git remote add origen <link do repositorio via https / ssh / etc)
+1) $ git add .
+2) $ git commit -m "<descritivo completo da mudança"
+3) Alterando a Branch ou validando se esta na correta: 
+    $ git branch -M main (ou a que você definiu no Git Hub)
+3) $ git remote add origen <link do repositorio via https / ssh / etc)
+4) $ git push -u origin main
