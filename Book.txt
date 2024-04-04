@@ -6,3 +6,6 @@ Arquito de teste e autoexplicativo para comandos GitHub
     $ git branch -M main (ou a que você definiu no Git Hub)
 3) $ git remote add origen <link do repositorio via https / ssh / etc)
 4) $ git push -u origin main
+5) $ git tag -a v1.1 -m "Criando TAGs para adicionar as releases e mudanças no sistema"
+6) No GitHub clique em TAGs dentro do projeto e crie a sua release para equipe de operação efetuar o download e subir para produção.
+7) GISTS - Pode usar para compartilhar pequenas partes do codigo e assim contribuir com a comunidade ou receber alterações.
