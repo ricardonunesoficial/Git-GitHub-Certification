@@ -1,6 +1,6 @@
 import math
 
-def calcular_pi_entre_numeros():
+def calcular_operacao_completa():
     # Solicitar os 5 números
     numeros = []
     for i in range(5):
@@ -13,10 +13,13 @@ def calcular_pi_entre_numeros():
         produto *= numero
     
     # Multiplicar pelo valor de pi
-    resultado = produto * math.pi
+    resultado_pi = produto * math.pi
+    
+    # Calcular a raiz quadrada do resultado
+    resultado_final = math.sqrt(resultado_pi)
     
     # Exibir o resultado
-    print(f"O resultado da equação é: {resultado}")
+    print(f"O resultado da operação é: {resultado_final}")
 
 # Chamada da função
-calcular_pi_entre_numeros()
+calcular_operacao_completa()
