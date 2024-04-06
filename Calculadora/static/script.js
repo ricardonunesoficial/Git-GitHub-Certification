@@ -1,17 +1,15 @@
+//Feito para usar na Calculadora Web
 document.addEventListener('DOMContentLoaded', function() {
     let screen = document.getElementById('expression');
     let expression = '';
-
     function addToScreen(value) {
         expression += value;
         screen.value = expression;
     }
-
     function clearScreen() {
         screen.value = '';
         expression = '';
     }
-
     function calculate() {
         try {
             // Substituímos os caracteres especiais antes de avaliar a expressão
@@ -24,7 +22,6 @@ document.addEventListener('DOMContentLoaded', function() {
             expression = '';
         }
     }
-
     let buttons = document.querySelectorAll('.keys button');
     buttons.forEach(button => {
         button.addEventListener('click', function() {
